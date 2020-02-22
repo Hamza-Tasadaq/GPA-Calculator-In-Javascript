@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+    <title>GPA CALCULATOR</title>
+  </head>
+  <body>
+    <div class="container text-center">
+      <!--Heading-->
+      <h1>GPA CALCULATOR</h1>
+      
+      <!--Input Table-->
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Subject Name</th>
+            <th scope="col">Grade</th>
+            <th scope="col">Credit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+              <input type="text" class="form-control" id="Input"  placeholder="Subject Name">
+            </td>
+            <td>
+              <select class="form-control" id="grade">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+              </select>
+            </td>
+            <td><select class="form-control" id="credit">
+              <option>-</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+              <input type="text" class="form-control" id="Input"  placeholder="Subject Name">
+            </td>
+            <td>
+              <select class="form-control" id="grade">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+              </select>
+            </td>
+            <td><select class="form-control" id="credit">
+              <option>-</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+              <input type="text" class="form-control" id="Input"  placeholder="Subject Name">
+            </td>
+            <td>
+              <select class="form-control" id="grade">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+              </select>
+            </td>
+            <td><select class="form-control" id="credit">
+              <option>-</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select></td>
+          </tr><tr>
+            <th scope="row">4</th>
+            <td>
+              <input type="text" class="form-control" id="Input"  placeholder="Subject Name">
+            </td>
+            <td>
+              <select class="form-control" id="grade">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+              </select>
+            </td>
+            <td><select class="form-control" id="credit">
+              <option>-</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>
+              <input type="text" class="form-control" id="Input"  placeholder="Subject Name">
+            </td>
+            <td>
+              <select class="form-control" id="grade">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+              </select>
+            </td>
+            <td><select class="form-control" id="credit">
+              <option>-</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>
+              <input type="text" class="form-control" id="Input"  placeholder="Subject Name">
+            </td>
+            <td>
+              <select class="form-control" id="grade">
+                <option>-</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>F</option>
+              </select>
+            </td>
+            <td><select class="form-control" id="credit">
+                <option>-</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Calculate Button-->
+      <button id="cal" type="button" class="btn btn-secondary btn-lg btn-block">CALCULATE</button>
+    
+      <!--Output Div-->
+      <div style="margin-top: 15px;">
+        <h1>Your GPA is:
+          <span id="output">
+             
+          </span>
+        </h1>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
